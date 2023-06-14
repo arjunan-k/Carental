@@ -6,4 +6,12 @@ import SearchBar from "./SearchBar";
 import CustomFilter from "./CustomFilter";
 import SearchManufacturer from "./SearchManufacturer";
 
-export { Hero, CustomButton, Navbar, Footer, SearchBar, CustomFilter, SearchManufacturer };
+export {
+  Hero,
+  CustomButton,
+  Navbar,
+  Footer,
+  SearchBar,
+  CustomFilter,
+  SearchManufacturer,
+};
