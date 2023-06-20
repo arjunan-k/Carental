@@ -1,7 +1,6 @@
 import "./globals.css";
 import { Navbar, Footer } from "@/components";
 
-
 export const metadata = {
   title: "Carental",
   description: "Discover the best cars in the world",

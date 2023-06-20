@@ -9,7 +9,7 @@ const CustomButton = ({
   handleClick,
   textStyles,
   rightIcon,
-  isDisabled
+  isDisabled,
 }: CustomButtonProps) => (
   <button
     disabled={isDisabled}

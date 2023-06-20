@@ -1,18 +1,18 @@
-"use client"
+"use client";
 
 import { ShowMoreProps } from "@types";
 import { updateSearchParams } from "@utils";
 import { CustomButton } from "@components";
 
 const ShowMore = ({ pageNumber, isNext, setLimit }: ShowMoreProps) => {
-    const handleNavigation = () => {
-        const newLimit = (pageNumber + 1) * 10
-        setLimit(newLimit)
-    }
+  const handleNavigation = () => {
+    const newLimit = (pageNumber + 1) * 10;
+    setLimit(newLimit);
+  };
 
   return (
     <div className="w-full flex-center gap-5 mt-10">
-        {!isNext && (
+      {!isNext && (
         <CustomButton
           btnType="button"
           title="Show More"
@@ -21,7 +21,7 @@ const ShowMore = ({ pageNumber, isNext, setLimit }: ShowMoreProps) => {
         />
       )}
     </div>
-  )
-}
+  );
+};
 
-export default ShowMore
+export default ShowMore;

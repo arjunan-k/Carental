@@ -5,7 +5,10 @@ import { Combobox, Transition } from "@headlessui/react";
 import { manufacturers } from "@/constants";
 import Image from "next/image";
 
-const SearchManufacturer = ({ selected, setSelected }: SearchManuFacturerProps) => {
+const SearchManufacturer = ({
+  selected,
+  setSelected,
+}: SearchManuFacturerProps) => {
   const [query, setQuery] = useState("");
   const filteredManufacturers =
     query === ""
